@@ -36,7 +36,7 @@ header .headerContainer nav .rightNavMenu {
     width: 463px;
 }
 
-header .headerContainer nav .rightNavMenu ul{
+header .headerContainer nav .rightNavMenu ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -44,8 +44,54 @@ header .headerContainer nav .rightNavMenu ul{
     text-wrap: nowrap;
 }
 
-header .headerContainer nav .rightNavMenu ul li img{
+header .headerContainer nav .rightNavMenu ul li img {
     padding-top: 10px;
     width: 30px;
 }
 
+/* ========================================
+        Header hero section CSS
+======================================== */
+
+header .headerContainer .heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+header .headerContainer .heroSection .heroLeft {
+    width: 582px;
+}
+
+header .headerContainer .heroSection .heroLeft h2 {
+    font-size: 52px;
+    line-height: 70px;
+}
+
+header .headerContainer .heroSection .heroLeft p {
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+header .headerContainer .heroSection .heroLeft button {
+    padding: 10px 24px;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+header .headerContainer .heroSection .heroLeft button::after {
+    content: '\2192';
+    margin-left: 8px; 
+  }
+
+  header .headerContainer .heroSection .heroRight {
+    width: 475px;
+    height: 475px;
+    background-image: url(../images/Circle\ design.svg);
+}
