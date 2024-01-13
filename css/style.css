@@ -87,11 +87,31 @@ header .headerContainer .heroSection .heroLeft button {
 
 header .headerContainer .heroSection .heroLeft button::after {
     content: '\2192';
-    margin-left: 8px; 
-  }
+    margin-left: 8px;
+}
 
-  header .headerContainer .heroSection .heroRight {
+header .headerContainer .heroSection .heroRight {
     width: 475px;
     height: 475px;
     background-image: url(../images/Circle\ design.svg);
+}
+
+/* ========================================
+        sponsor section CSS
+======================================== */
+
+main .sponsorContainer {
+    width: 1110px;
+    max-width: 77.08%;
+    margin: 0px auto;
+}
+
+main .sponsorContainer .horizontalLine svg{
+    width: 100%;
+}
+
+main .sponsorContainer .sponsorLogos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
