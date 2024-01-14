@@ -239,7 +239,7 @@ main .featuredContainer .rightTitles button::after {
                 Footer CSS
 ======================================== */
 
-footer{
+footer {
     background: #0A0826;
     display: flex;
     align-items: center;
@@ -254,13 +254,13 @@ footer .footerContainer {
     margin: 50px auto;
 }
 
-footer .footerContainer h2{
+footer .footerContainer h2 {
     margin: 0;
     text-align: center;
     color: #FFF;
 }
 
-footer .footerContainer p{
+footer .footerContainer p {
     margin: 0;
     text-align: center;
     color: #FFF;
@@ -281,3 +281,148 @@ footer .footerContainer .socials {
             ResponsiveCSS
 ======================================== */
 
+/* Extra small devices (phones, 390px and down) */
+
+@media only screen and (max-width: 390px) {
+
+    /* Header CSS */
+    header .headerContainer {
+        max-width: 98%;
+        width: 360px;
+        margin: 0px auto;
+    }
+
+    header .headerContainer nav {
+        flex-direction: column;
+    }
+
+    header .headerContainer nav .rightNavMenu {
+        width: 360px;
+    }
+
+    /* Header hero section CSS */
+
+    header .headerContainer .heroSection {
+        flex-direction: column-reverse;
+    }
+
+    header .headerContainer .heroSection .heroLeft {
+        margin-top: 16px;
+        width: 321px;
+    }
+
+    header .headerContainer .heroSection .heroLeft h2 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    header .headerContainer .heroSection .heroLeft p {
+        font-weight: 600;
+        margin: 16px 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    header .headerContainer .heroSection .heroLeft button {
+        display: block;
+        width: 194px;
+        margin: auto;
+    }
+
+    header .headerContainer .heroSection .heroRight {
+        width: 257px;
+        height: 257px;
+        background-image: url(../images/Circle\ design.svg);
+        background-repeat: no-repeat;
+        background-size: 257px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .headerContainer .heroSection .heroRight img {
+        width: 202px;
+        height: 190px;
+    }
+
+    /* sponsor section CSS */
+
+    main .sponsorContainer {
+        width: 276px;
+    }
+
+    main .sponsorContainer .sponsorLogos {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    main .sponsorContainer .sponsorLogos img {
+        height: 15px;
+        width: 58px;
+    }
+
+    /* Popular Collection Sections CSS */
+
+    main .featuredContainer {
+        max-width: 98%;
+        width: 329px;
+    }
+
+    main .popularCollectionContainer .collectionGrid {
+        grid-template-columns: 329px;
+        gap: 30px;
+    }
+
+    main .popularCollectionContainer .collectionGrid .collectionCard {
+        width: 260px;
+    }
+
+    main .popularCollectionContainer .collectionGrid .collectionCard img {
+        width: 250px;
+    }
+
+    /* Featured Products Sections CSS */
+
+    main .featuredContainer {
+        max-width: 98%;
+        width: 311px;
+        flex-direction: column-reverse;
+    }
+
+    main .featuredContainer .leftImageContainer {
+        width: 299px;
+        height: 188px;
+    }
+
+    main .featuredContainer .leftImageContainer img {
+        width: 100%;
+    }
+
+    main .featuredContainer .rightTitles {
+        width: 329px;
+    }
+
+    main .featuredContainer .rightTitles h2 {
+        text-align: center;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    main .featuredContainer .rightTitles p {
+        width: 329px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    main .featuredContainer .rightTitles button {
+        display: block;
+        width: 194px;
+        margin: 80px auto 80px auto;
+    }
+}
