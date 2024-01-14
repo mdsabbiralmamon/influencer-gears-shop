@@ -187,3 +187,51 @@ main .popularCollectionContainer .button-load-more button::after {
     margin-left: 8px;
 }
 
+/* ========================================
+      Featured Products Sections CSS
+======================================== */
+
+main .featuredContainer {
+    max-width: 83.33%;
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .featuredContainer .leftImageContainer {
+    width: 404px;
+    height: 270px;
+}
+
+main .featuredContainer .rightTitles h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+main .featuredContainer .rightTitles p {
+    color: #6C6C6C;
+    font-weight: 700;
+    line-height: 28px;
+    width: 501px;
+    height: 88px;
+    margin: 16px 0;
+}
+
+main .featuredContainer .rightTitles button {
+
+    padding: 10px 24px;
+    color: #FFF;
+    font-weight: 700;
+    background: #E02C6D;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+main .featuredContainer .rightTitles button::after {
+    content: '\2192';
+    margin-left: 8px;
+}
