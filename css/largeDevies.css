@@ -1,0 +1,69 @@
+/* medium devices (phones, 576px and down) */
+
+@media only screen and (min-width: 992px) and (max-width: 1440px) {
+
+    /* Header CSS */
+    header .headerContainer nav {
+        flex-direction: column;
+    }
+
+    /* Header Hero Section */
+    header .headerContainer .heroSection {
+        flex-direction: column;
+    }
+
+    /* Sponsor css */
+    main .sponsorContainer {
+        width: 576px;
+    }
+
+    main .sponsorContainer .sponsorLogos {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    main .sponsorContainer .sponsorLogos img {
+        height: 15px;
+        width: 58px;
+    }
+
+    /* Popular Collection Sections CSS */
+    main .popularCollectionContainer {
+        max-width: 90%;
+        width: 576px;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    main .popularCollectionContainer .collectionGrid {
+        margin: auto;
+        width: fit-content;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    main .popularCollectionContainer .collectionGrid .collectionCard {
+        width: 260px;
+    }
+
+    main .popularCollectionContainer .collectionGrid .collectionCard img {
+        width: 250px;
+    }
+
+    /* Featured Products Sections CSS */
+
+    main .featuredContainer {
+        max-width: 90%;
+        width: 576px;
+        flex-direction: column-reverse;
+    }
+
+    main .featuredContainer .rightTitles button {
+        display: block;
+        width: 194px;
+        margin: 80px auto 80px auto;
+    }
+
+
+}
